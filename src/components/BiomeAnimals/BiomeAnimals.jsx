@@ -3,7 +3,6 @@ import React from "react";
 function BiomeAnimals({ data }) {
   return (
     <div>
-      {" "}
       <div>
         <h3>CREATURES:</h3>
         {data.arrayAnimals.map((animal, index) => (

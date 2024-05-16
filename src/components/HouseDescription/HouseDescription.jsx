@@ -5,7 +5,7 @@ function HouseDescription({ data }) {
 
   return (
     <div>
-      <p>House Description: {data.houseDescription}</p>
+      <p>{data.houseDescription}</p>
       <p>Array of Images: {data.arrayImg.join(", ")}</p>
     </div>
   );
