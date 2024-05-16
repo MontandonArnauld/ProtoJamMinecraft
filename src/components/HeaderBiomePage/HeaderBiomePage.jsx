@@ -12,7 +12,7 @@ function HeaderBiomePage({ data }) {
 
   return (
     <>
-      <div className="video-background">
+      <div className="video-background-biome">
         <iframe
           src={data.videoSrc}
           allow="autoplay; encrypted-media"
