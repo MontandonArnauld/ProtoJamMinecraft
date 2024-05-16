@@ -2,7 +2,8 @@
   {
     "id": 1,
     "videoSrc": "https://www.youtube.com/embed/RnnctM5Rf9I?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=RnnctM5Rf9I&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;vq=hd1080",
-    "title": "../public/assets/images/AQUATIQUE.png",
+    "title": "Aquatique",
+    "titleImg": "../public/assets/images/AQUATIQUE.png",
     "avatarName": "Alexis",
     "avatarText": "Description avatar 1",
     "houseDescription": "Bienvenue au Gite Aquatique de Minecraft, un havre de paix inspire par le majestueux Temple de l'Eau. Plonge au coeur de l'univers pixelise de Minecraft, ce refuge sous-marin est concu pour offrir une experience unique de deconnexion et de decouverte de la nature aquatique.\n\nLe gite est dirige par Alexis, un passionne de la nature et de l'environnement marin, qui souhaite partager avec vous la serenite et la splendeur des fonds marins. Alexis vous invite a explorer les merveilles subaquatiques, entoure de coraux chatoyants, de plantes aquatiques luxuriantes, et d'une faune marine diverse, le tout dans un cadre idyllique et apaisant.\n\nImagine pour etre un sanctuaire de tranquillite, ce gite vous permet de vous immerger dans une retraite spirituelle loin du tumulte quotidien. Ici, la connexion avec la nature est reine, offrant une opportunite rare de renouer avec soi-meme et de trouver un profond sentiment de paix interieure.\n\nPlongez dans l'experience immersive de l'univers Minecraft, ou chaque bloc et chaque pixel sont penses pour eveiller un sentiment de calme et de contemplation. Le Gite Aquatique d'Alexis est plus qu'un simple lieu de sejour; c'est une invitation a decouvrir la beaute silencieuse et l'emerveillement des mondes sous-marins, tout en beneficiant de l'ambiance apaisante d'une retraite spirituelle.",
@@ -46,7 +47,8 @@
   {
     "id": 2,
     "videoSrc": "https://www.youtube.com/embed/JBoUwElRFVM?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=JBoUwElRFVM&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;vq=hd1080",
-    "title": "../public/assets/images/ARTIQUE.png",
+    "title": "Artique",
+    "titleImg": "../public/assets/images/ARTIQUE.png",
     "avatarName": "Arnauld",
     "avatarText": "Description avatar 2",
     "houseDescription": "Bienvenue au Gite Arctique de Minecraft, un havre de paix inspire par les vastes et mysterieuses etendues enneigees. Plonge au coeur de l'univers pixelise de Minecraft, ce refuge arctique est concu pour offrir une experience unique de deconnexion et de decouverte de la nature gelée.\n\nLe gite est dirige par Arnauld, un passionne des paysages glaces et des mysteres de l'Arctique, qui souhaite partager avec vous la serenite et la beaute de ce biome enneige. Arnauld vous invite a explorer les merveilles hivernales, entoure de glaciers scintillants, de grottes de glace et d'une faune polaire diverse, le tout dans un cadre majestueux et apaisant.\n\nImagine pour etre un sanctuaire de tranquillite, ce gite vous permet de vous immerger dans une retraite spirituelle loin du tumulte quotidien. Ici, la connexion avec la nature est reine, offrant une opportunite rare de renouer avec soi-meme et de trouver un profond sentiment de paix interieure.\n\nPlongez dans l'experience immersive de l'univers Minecraft, ou chaque bloc et chaque pixel sont penses pour eveiller un sentiment de calme et de contemplation. Le Gite Arctique d'Arnauld est plus qu'un simple lieu de sejour; c'est une invitation a decouvrir la beaute silencieuse et l'emerveillement des mondes enneiges, tout en beneficiant de l'ambiance apaisante d'une retraite spirituelle.",
@@ -86,7 +88,8 @@
   {
     "id": 3,
     "videoSrc": "https://www.youtube.com/embed/9Y0TZkTjbc8?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=9Y0TZkTjbc8&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;vq=hd1080",
-    "title": "../public/assets/images/DESERTIQUE.png",
+    "title": "Desertique",
+    "titleImg": "../public/assets/images/DESERTIQUE.png",
     "avatarName": "Elias",
     "avatarText": "Description avatar 3",
     "houseDescription": "Bienvenue au Gite Desertique de Minecraft, un refuge unique inspire par les vastes et mysterieuses dunes de sable. Plonge au coeur de l'univers pixelise de Minecraft, ce gite desertique est concu pour offrir une experience de deconnexion et de decouverte de la nature sauvage du desert.\n\nLe gite est dirige par Elias, un passionne des mysteres du desert et de ses vastes etendues, qui souhaite partager avec vous la magie et l'aventure de ce biome aride. Elias vous invite a explorer les merveilles du desert, entoure de pyramides antiques, de cavernes cachees, de cactus imposants et de fossiles intrigants, avec un soupcon de frisson du a la presence eventuelle de pillards, le tout dans un cadre majestueux et apaisant.\n\nImagine pour etre un sanctuaire de tranquillite, ce gite vous permet de vous immerger dans une retraite spirituelle loin du tumulte quotidien. Ici, la connexion avec la nature est reine, offrant une opportunite rare de renouer avec soi-meme et de trouver un profond sentiment de paix interieure.\n\nPlongez dans l'experience immersive de l'univers Minecraft, ou chaque bloc et chaque pixel sont penses pour eveiller un sentiment de calme et de contemplation. Le Gite Desertique d'Elias est plus qu'un simple lieu de sejour; c'est une invitation a decouvrir la beaute envoûtante et l'aventure des mondes arides, tout en beneficiant de l'ambiance apaisante d'une retraite spirituelle.",
@@ -116,7 +119,8 @@
   {
     "id": 4,
     "videoSrc": "https://www.youtube.com/embed/n0vvGQL6PpI?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=n0vvGQL6PpI&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;vq=hd1080",
-    "title": "../public/assets/images/MARECAGE.png",
+    "title": "Marecage",
+    "titleImg": "../public/assets/images/MARECAGE.png",
     "avatarName": "Morgan",
     "avatarText": "Description avatar 4",
     "houseDescription": "Bienvenue au Gite du Marais de Minecraft, un refuge enchanteur inspire par les marais brumeux et mystiques. Plonge au coeur de l'univers pixelise de Minecraft, ce gite du marais est concu pour offrir une experience de deconnexion et de decouverte de la nature mysterieuse du marais.\n\nLe gite est dirige par Morgan, un amoureux des mysteres des marais, qui souhaite partager avec vous la serenite et l'intrigue de ce biome enigmatique. Morgan vous invite a explorer les profondeurs des marais, habites par une sorciere et son chat noir, ou vous decouvrirez des paysages enchanteurs et des creatures fascinantes, le tout dans un cadre paisible et immersif.\n\nImagine pour etre un sanctuaire de tranquillite, ce gite vous permet de vous immerger dans une retraite spirituelle loin du tumulte quotidien. Ici, la connexion avec la nature est reine, offrant une opportunite rare de renouer avec soi-meme et de trouver un profond sentiment de paix interieure.\n\nPlongez dans l'experience immersive de l'univers Minecraft, ou chaque bloc et chaque pixel sont penses pour eveiller un sentiment de calme et de contemplation. Le Gite du Marais de Morgan est plus qu'un simple lieu de sejour; c'est une invitation a decouvrir la beaute envoutante et l'intrigue des marais, tout en beneficiant de l'ambiance apaisante d'une retraite spirituelle.",
