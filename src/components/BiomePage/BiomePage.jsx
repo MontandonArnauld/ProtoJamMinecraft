@@ -6,8 +6,8 @@ import BiomePlants from "../BiomePlants/BiomePlants";
 import BiomeAnimals from "../BiomeAnimals/BiomeAnimals";
 import dataHome from "../../data.json";
 
-function BiomePage() {
-  const data = dataHome[0];
+function BiomePage({data}) {
+
   return (
     <>
       <div>

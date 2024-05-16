@@ -1,4 +1,4 @@
-.video-background {
+.video-background-biome {
     position: relative;
     right: 0;
     bottom: 0;
@@ -8,7 +8,7 @@
     z-index: -100;
   }
 
-.video-background iframe {
+.video-background-biome iframe {
     position: absolute;
     top: 50%;
     left: 50%;

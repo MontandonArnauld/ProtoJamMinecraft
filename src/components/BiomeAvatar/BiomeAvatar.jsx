@@ -7,13 +7,13 @@ function BiomeAvatar({ data }) {
   return (
     <div className="avatar_container">
       <div className="avatar_description">
-        <img src={data.titleSrc} className="avatar_title" alt="Titre de l'image" />
+        <img src={data.titleImg} className="avatar_title" alt="Titre de l'image" />
         <div className="avatar_card">
           <div className="avatar_card_skin">
             <p className="avatar_skin_title">{data.avatarName}</p>
             <ReactSkinview3d
-              skinUrl="textures/skin1.png"
-              capeUrl="textures/mojang-classic-cape.png"
+              skinUrl="../assets/images/textures/skin1.png"
+              capeUrl="../assets/images/textures/mojang-classic-cape.png"
               height="200"
               width="200"
             />
