@@ -1,0 +1,12 @@
+.avatar_title  {
+    text-align: center;
+}
+.avatar_card{
+    display: flex;
+    justify-content: space-around;
+    
+}   
+.avatar_skin_title{
+    text-align: center;
+} 
+
