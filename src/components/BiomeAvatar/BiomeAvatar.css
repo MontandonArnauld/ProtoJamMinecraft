@@ -1,0 +1,15 @@
+.avatar_title {
+    position: absolute;
+    top: 7%;
+    left : 16%;
+    right : 10%
+}
+.avatar_card{
+    display: flex;
+    justify-content: space-around;
+    
+}   
+.avatar_skin_title{
+    text-align: center;
+} 
+
