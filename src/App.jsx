@@ -1,11 +1,15 @@
 import "./App.css";
-import React from "react";
-import BiomePage from "./components/BiomePage/BiomePage";
+import { MainProvider } from "./contexts/MainContext";
+import { Outlet } from "react-router-dom";
 
 function App() {
+
+
   return (
     <>
-      <BiomePage />
+    <MainProvider>
+        <Outlet />
+    </MainProvider>
     </>
   );
 }
