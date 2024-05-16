@@ -8,6 +8,7 @@ import dataHome from "../../data.json";
 
 function BiomePage({data}) {
 
+
   return (
     <>
       <div>
