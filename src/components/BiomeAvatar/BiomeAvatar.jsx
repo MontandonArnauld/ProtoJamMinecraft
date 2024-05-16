@@ -7,7 +7,7 @@ function BiomeAvatar({ data }) {
   return (
     <div className="avatar_container">
       <div className="avatar_description">
-        <h2 className="avatar_title">{data.title}</h2>
+        <img src={data.title} className="avatar_title" alt="Titre de l'image" />
         <div className="avatar_card">
           <div className="avatar_card_skin">
             <p className="avatar_skin_title">{data.avatarName}</p>

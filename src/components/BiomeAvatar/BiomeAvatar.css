@@ -1,5 +1,8 @@
-.avatar_title  {
-    text-align: center;
+.avatar_title {
+    position: absolute;
+    top: 7%;
+    left : 16%;
+    right : 10%
 }
 .avatar_card{
     display: flex;
