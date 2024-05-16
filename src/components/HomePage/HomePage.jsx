@@ -1,7 +1,7 @@
 import "./HomePage.css";
 import { Link } from "react-router-dom";
 import jsonData from "../../data.json"
-import { useMain } from "../../contexts/MainContext";
+import { useMain } from "../../contexts/MainContext"; 
 
 function HomePage() {
 
