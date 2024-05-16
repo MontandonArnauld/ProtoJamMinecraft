@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "videoSrc": "https://www.youtube.com/watch?v=RnnctM5Rf9I&list=PLZHdY_46KnYuY7kUUXm__NrLMEll8IGGX&index=8&ab_channel=Minecraft",
+    "title": "Aquatique",
+    "avatarName": "Alexis",
+    "avatarText": "Description avatar 1",
+    "houseDescription": "Description gite 1",
+    "arrayImg": ["srcAvatar", "srcCape", "srcHouse", "srcOther"],
+    "arrayPlants": ["src1", "src2"],
+    "arrayAnimals": ["src1", "src2"],
+    "arrayText": ["text1", "text2", "text3"]
+  },
+  {
+    "id": 2,
+    "videoSrc": "https://www.youtube.com/watch?v=JBoUwElRFVM&list=PLZHdY_46KnYuY7kUUXm__NrLMEll8IGGX&index=1&ab_channel=Minecraft",
+    "title": "Enneigé",
+    "avatarName": "Arnauld",
+    "avatarText": "Description avatar 2",
+    "houseDescription": "Description gite 2",
+    "arrayImg": ["srcAvatar", "srcCape", "srcHouse", "srcOther"],
+    "arrayPlants": ["src1", "src2"],
+    "arrayAnimals": ["src1", "src2"],
+    "arrayText": ["text1", "text2", "text3"]
+  },
+  {
+    "id": 3,
+    "videoSrc": "https://www.youtube.com/watch?v=9Y0TZkTjbc8&list=PLZHdY_46KnYuY7kUUXm__NrLMEll8IGGX&index=3&ab_channel=Minecraft",
+    "title": "Desert",
+    "avatarName": "Elias",
+    "avatarText": "Description avatar 3",
+    "houseDescription": "Description gite 3",
+    "arrayImg": ["srcAvatar", "srcCape", "srcHouse", "srcOther"],
+    "arrayPlants": ["src1", "src2"],
+    "arrayAnimals": ["src1", "src2"],
+    "arrayText": ["text1", "text2", "text3"]
+  },
+  {
+    "id": 4,
+    "videoSrc": "https://www.youtube.com/watch?v=n0vvGQL6PpI&list=PLZHdY_46KnYuY7kUUXm__NrLMEll8IGGX&index=7&ab_channel=Minecraft",
+    "title": "Jungle",
+    "avatarName": "Morgan",
+    "avatarText": "Description avatar 4",
+    "houseDescription": "Description gite 4",
+    "arrayImg": ["srcAvatar", "srcCape", "srcHouse", "srcOther"],
+    "arrayPlants": ["src1", "src2"],
+    "arrayAnimals": ["src1", "src2"],
+    "arrayText": ["text1", "text2", "text3"]
+  }
+]
