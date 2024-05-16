@@ -17,9 +17,8 @@ function Biome() {
     return (
         <>
             <BiomePage data={data[0]}/>
-            BIOME {id}
             <Link to="/">
-        <div className="btn_small">
+        <div className="btn_small biome_return">
                 <img src="../assets/images/icons/return.png" alt="" />
         </div>
         </Link>
