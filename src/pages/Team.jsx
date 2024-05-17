@@ -3,8 +3,11 @@ import { WalkingAnimation } from "skinview3d";
 import { useMain } from "../contexts/MainContext";
 import { Link } from "react-router-dom";
 import "./styles/Team.css";
+import jsonData from "../data.json"
 
 function Team() {
+
+  const data = jsonData;
 
   const { playSound } = useMain();
 
@@ -21,68 +24,24 @@ function Team() {
         </div>
         </Link>
       <div className="team_container">
-      <h1>TEAM</h1>
+      <h2>TEAM</h2>
         <div className="team_avatar">
+          {data.map((user) => 
           <div className="avatar">
-          <p>Alexis</p>
+          <p>{user.avatarName}</p>
             <ReactSkinview3d
               className="viewer"
-              skinUrl="../assets/images/textures/mojang-classic-cape.png"
+              skinUrl={user.skinUrl}
+              capeUrl={user.capeUrl}
               height={300}
               width={120}
               onReady={({ viewer }) => {
-                // Add an animation
                 viewer.animation = new WalkingAnimation();
-                // Enabled auto rotate
                 viewer.autoRotate = true;
               }}
             />
           </div>
-          <div className="avatar">
-          <p>Alexis</p>
-            <ReactSkinview3d
-              className="viewer"
-              skinUrl="../assets/images/textures/mojang-classic-cape.png"
-              height={300}
-              width={120}
-              onReady={({ viewer }) => {
-                // Add an animation
-                viewer.animation = new WalkingAnimation();
-                // Enabled auto rotate
-                viewer.autoRotate = true;
-              }}
-            />
-          </div>
-          <div className="avatar">
-          <p>Alexis</p>
-            <ReactSkinview3d
-              className="viewer"
-              skinUrl="../assets/images/textures/mojang-classic-cape.png"
-              height={300}
-              width={120}
-              onReady={({ viewer }) => {
-                // Add an animation
-                viewer.animation = new WalkingAnimation();
-                // Enabled auto rotate
-                viewer.autoRotate = true;
-              }}
-            />
-          </div>
-          <div className="avatar">
-          <p>Alexis</p>
-            <ReactSkinview3d
-              className="viewer"
-              skinUrl="../assets/images/textures/mojang-classic-cape.png"
-              height={300}
-              width={120}
-              onReady={({ viewer }) => {
-                // Add an animation
-                viewer.animation = new WalkingAnimation();
-                // Enabled auto rotate
-                viewer.autoRotate = true;
-              }}
-            />
-          </div>
+          )}
         </div>
       </div>
     </>

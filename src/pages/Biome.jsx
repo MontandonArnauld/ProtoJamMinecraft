@@ -9,14 +9,6 @@ function Biome() {
     
   const data = jsonData.filter(section => section.title === id);
        
-
-    
-   console.log(data)
-   
-        
-    
-
-
     return (
         <>
             <BiomePage data={data[0]}/>

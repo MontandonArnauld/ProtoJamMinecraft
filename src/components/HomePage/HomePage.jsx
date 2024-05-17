@@ -54,7 +54,7 @@ function HomePage() {
         </div>
         <div className="copyright">
           <p>
-            © MineCamp - Créé par Alexis, Arnauld, Elias & Morgan
+            © MineGuide - Créé par Alexis, Arnauld, Elias & Morgan
           </p>
         </div>
       </div>
