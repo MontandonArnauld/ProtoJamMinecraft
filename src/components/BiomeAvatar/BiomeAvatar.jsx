@@ -13,6 +13,7 @@ function BiomeAvatar({ data }) {
   const artique = data.title === "Artique" ? "artique" : ""
   const marecage = data.title === "Marecage" ? "marecage" : ""
 
+
   return ( 
     <div className="avatar_container">
         <div className="avatar_title">
@@ -23,7 +24,7 @@ function BiomeAvatar({ data }) {
         </div>
         </Link>
         </div>
-      <div className="avatar_description">
+      <div className={`avatar_description ${data.title}`}>
         <div className="avatar_card">
           <div className="avatar_card_skin">
             <p className="avatar_skin_title">{data.avatarName}</p>

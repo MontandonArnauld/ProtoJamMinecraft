@@ -22,7 +22,7 @@
 }
 
 .homepage_title img {
-    width: 50%;
+    width: 60%;
 }
 
 .homepage_title .title_label {
@@ -30,9 +30,9 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px -1px 0 #3F3F00, -1px 1px 0 #3F3F00, 1px -1px 0 #3F3F00, 1px 1px 0 #3F3F00;
     position: absolute;
     font-size: 1.2em;
-    top: 40px;
+    top: 50px;
     z-index: 2;
-    margin-left: 420px;
+    margin-left: 500px;
     animation: zoom;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
@@ -47,13 +47,13 @@
     color: #DFD5D6;
     font-size: 30px;
     position: absolute;
-    top: 50px;
-    text-shadow: -3px 0px 0px #130805, 3px 0px 0px #130805, 0px 3px 0px #130805, 0px -3px 0px #130805, -3px -3px 0px #130805, -3px 3px 0px #130805, 4px 3px 0px #130805;    top: 50px;
+    top: 65px;
+    text-shadow: -3px 0px 0px #130805, 3px 0px 0px #130805, 0px 3px 0px #130805, 0px -3px 0px #130805, -3px -3px 0px #130805, -3px 3px 0px #130805, 4px 3px 0px #130805;
 }
 
 .edition.team {
-    top: 50px;
-    font-size: 35px;
+    top: 58px;
+    font-size: 30px;
 }
 
 .btn_container_main {

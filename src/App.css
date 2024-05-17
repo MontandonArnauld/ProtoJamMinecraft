@@ -26,6 +26,22 @@ a {
   right: 0;
 }
 
+.Aquatique {
+  background-color: #008FDB;
+}
+
+.Desertique {
+  background-color: #E1BD80;
+}
+
+.Artique {
+  background-color: #f4f5ff;
+}
+
+.Marecage {
+  background-color: #177e5f;
+}
+
 .btn {
   background: url('../assets/images/btn.png');
   background-size: cover;
