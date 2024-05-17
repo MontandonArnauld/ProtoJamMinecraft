@@ -47,7 +47,8 @@
     ],
     "arrayText": ["text1", "text2", "text3"],
     "skinUrl": "../assets/images/textures/skin1.png",
-    "capeUrl": "../assets/images/textures/mojang-classic-cape.png"
+    "capeUrl": "../assets/images/textures/mojang-classic-cape.png",
+    "houseImg":"../assets/images/templeeau.png"
   },
   {
     "id": 2,
@@ -90,7 +91,8 @@
     ],
     "arrayText": ["text1", "text2", "text3"],
     "skinUrl": "../assets/images/textures/skin2.png",
-    "capeUrl": "../assets/images/textures/mojang-classic-cape.png"
+    "capeUrl": "../assets/images/textures/mojang-classic-cape.png",
+    "houseImg":"../assets/images/chalet-projet.png"
   },
   {
     "id": 3,
@@ -123,7 +125,8 @@
     ],
     "arrayText": ["text1", "text2", "text3"],
     "skinUrl": "../assets/images/textures/skin3.png",
-    "capeUrl": "../assets/images/textures/mojang-classic-cape.png"
+    "capeUrl": "../assets/images/textures/mojang-classic-cape.png",
+    "houseImg":"../assets/images/desert.png"
   },
   {
     "id": 4,
@@ -166,6 +169,7 @@
     ],
     "arrayText": ["text1", "text2", "text3"],
     "skinUrl": "../assets/images/textures/skin4.png",
-    "capeUrl": "../assets/images/textures/mojang-classic-cape.png"
+    "capeUrl": "../assets/images/textures/mojang-classic-cape.png",
+    "houseImg":"../assets/images/cabane.png"
   }
 ]
