@@ -35,12 +35,15 @@
       "../public/assets/images/aquatique/animales/Spider.png",
       "../public/assets/images/aquatique/animales/Squelette.png",
       "../public/assets/images/aquatique/animales/Zombie.png",
+      "../public/assets/images/aquatique/animales/068-1-gardien.gif",
       "../public/assets/images/aquatique/animales/Morue.png",
       "../public/assets/images/aquatique/animales/Saumon.png",
       "../public/assets/images/aquatique/animales/Poisson_tropical_2.png",
+      "../public/assets/images/aquatique/animales/turtle.png",
       "../public/assets/images/aquatique/animales/Squid.gif",
       "../public/assets/images/aquatique/animales/Dauphin.gif",
       "../public/assets/images/aquatique/animales/Chauve-souris.gif"
+      
     ],
     "arrayText": ["text1", "text2", "text3"],
     "skinUrl": "../assets/images/textures/skin1.png",
@@ -163,6 +166,6 @@
     ],
     "arrayText": ["text1", "text2", "text3"],
     "skinUrl": "../assets/images/textures/skin4.png",
-    "capeUrl": "../assets/images/textures/cpaes ori-cape.png"
+    "capeUrl": "../assets/images/textures/cpaesori-cape.png"
   }
 ]
