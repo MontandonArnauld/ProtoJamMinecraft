@@ -29,14 +29,12 @@ function BiomeAvatar({ data }) {
             <p className="avatar_skin_title">{data.avatarName}</p>
             <ReactSkinview3d
               className="viewer"
-              skinUrl="../assets/images/textures/skin1.png"
-              capeUrl="../assets/images/textures/mojang-classic-cape.png"
+              skinUrl={data.skinUrl}
+              capeUrl={data.capeUrl}
               height={300}
               width={150}
               onReady={({ viewer }) => {
-                // Add an animation
                 viewer.animation = new WalkingAnimation();
-                // Enabled auto rotate
                 viewer.autoRotate = true;
               }}
             />

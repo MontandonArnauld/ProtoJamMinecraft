@@ -5,18 +5,12 @@
 
 #root {
   box-sizing: border-box;
-  cursor: ;
 }
 
 body{
   margin: 0;
   padding: 0;
   font-family: 'minecraft';
-  cursor: url('../assets/images/icons/cursor.cur'), auto;
-}
-
-a:hover {
-  cursor: url('../assets/images/icons/cursor.cur'), auto;
 }
 
 a {
