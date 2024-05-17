@@ -5,12 +5,18 @@
 
 #root {
   box-sizing: border-box;
+  cursor: ;
 }
 
 body{
   margin: 0;
   padding: 0;
   font-family: 'minecraft';
+  cursor: url('../assets/images/icons/cursor.cur'), auto;
+}
+
+a:hover {
+  cursor: url('../assets/images/icons/cursor.cur'), auto;
 }
 
 a {
@@ -83,11 +89,14 @@ a {
   max-height: 32px; 
 }
 
-.biome_return{
+.biome_return {
   position: fixed;
   top: 15px;
   right: 15px;
   width: 40px;
   height: 40px;
   z-index: 5;
+  animation: show;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }

@@ -4,10 +4,8 @@ import HouseDescription from "../HouseDescription/HouseDescription";
 import HeaderBiomePage from "../HeaderBiomePage/HeaderBiomePage";
 import BiomePlants from "../BiomePlants/BiomePlants";
 import BiomeAnimals from "../BiomeAnimals/BiomeAnimals";
-import dataHome from "../../data.json";
 
 function BiomePage({data}) {
-
 
   return (
     <>

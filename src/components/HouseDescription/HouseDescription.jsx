@@ -4,9 +4,15 @@ function HouseDescription({ data }) {
   // Accéder à la première entrée du tableau de données
 
   return (
-    <div>
-      <p>{data.houseDescription}</p>
-      <p>Array of Images: {data.arrayImg.join(", ")}</p>
+    <div className="house_container">
+      <div className="house_main">
+        <div className="house">
+        <img className="house_img" src="../assets/images/chalet-projet.png" alt="" />
+        </div>
+        <div className="house_desc">
+          <p>{data.houseDescription}</p>
+        </div>
+      </div>
     </div>
   );
 }
