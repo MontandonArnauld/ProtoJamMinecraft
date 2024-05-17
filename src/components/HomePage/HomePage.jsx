@@ -23,6 +23,7 @@ function HomePage() {
           alt=""
         />
         <p className="title_label">ProtoJam 2024 !</p>
+        <p className="edition">REACT EDITION</p>
         </div>
         <div className="btn_container_main">
           {data.map((section) => (

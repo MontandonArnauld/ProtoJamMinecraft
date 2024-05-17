@@ -1,15 +1,76 @@
 .avatar_title {
     position: absolute;
-    top: 7%;
-    left : 16%;
-    right : 10%
+    top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
+
+.avatar_title_img {
+    width: 50%;
+}
+
+.avatar_title_img.artique {
+    width: 35%;
+}
+
+.avatar_title_img.marecage {
+    width: 45%;
+}
+
 .avatar_card{
     display: flex;
     justify-content: space-around;
-    
+    background-color: rgba(5, 5, 5, 0.5);
+    border-radius: 5px;
 }   
+
+.avatar_skin_title {
+ font-size: 1.2rem;
+}
+
+.avatar_card_desc {
+    font-size: 1.1rem;
+}
+
+.avatar_description {
+    padding: 2rem 5rem; 
+    margin: 3rem 0;
+    color: #FFF;
+}
+
 .avatar_skin_title{
     text-align: center;
 } 
 
+.house_container {
+    padding: 2rem 8rem;
+    margin: 3rem 0;
+}
+
+.house_main {
+    background-color: rgba(5, 5, 5, 0.5);
+    color: #FFF;
+    padding: 3rem 5rem;
+    border-radius: 5px;
+}
+
+.house {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.house_img {
+    width: 500px;
+    height: auto;
+}
+
+.house_desc {
+    text-align: center;
+    font-size: 1.1em;
+}

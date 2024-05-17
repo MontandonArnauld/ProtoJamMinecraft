@@ -1,14 +1,25 @@
+.animals_container {
+    background-color: aquamarine;
+}
+
 .card_plants img{
-    background-color: rgba(70, 70, 70, 0.308);
-    width: 200px;
-    height: 200px;
-    padding: 1.5em;
-    border-radius: 5%;
+    background-color: rgba(70, 70, 70, 0.208);
+    width: 120px;
+    height: 120px;
+    padding: 1em;
+    border-radius: 10%;
     justify-content: center;
     align-items: center;
     object-fit: contain;
     box-shadow: rgba(0, 0, 0, 0.37) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    
+    }
+
+    .card_plants img:hover {
+        background-color: rgba(70, 70, 70, 0.508);
+    }
+
+    .card_plants img:active {
+        box-shadow: none;
     }
     
     .card_container {
@@ -21,6 +32,7 @@
     
        
     }
+
     
     .card_plants{
         flex: 1 0 (20%);

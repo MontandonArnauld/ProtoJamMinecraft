@@ -1,6 +1,7 @@
 import ReactSkinview3d from "react-skinview3d";
 import { WalkingAnimation } from "skinview3d";
 import { useMain } from "../contexts/MainContext";
+import { Link } from "react-router-dom";
 import "./styles/Team.css";
 
 function Team() {
@@ -11,13 +12,14 @@ function Team() {
     <>
       <div className="homepage_title">
         <img className="title-img team_title" src="../assets/images/title.png" alt="" />
-        <p className="title_label">ProtoJam 2024 !</p>
+        <p className="title_label team">ProtoJam 2024 !</p>
+        <p className="edition team">REACT EDITION</p>
       </div>
-      {/* <Link to="/">
+      <Link to="/">
         <div className="btn_small biome_return" onClick={playSound}>
                 <img src="../assets/images/icons/return.png" alt="" />
         </div>
-        </Link> */}
+        </Link>
       <div className="team_container">
       <h1>TEAM</h1>
         <div className="team_avatar">
