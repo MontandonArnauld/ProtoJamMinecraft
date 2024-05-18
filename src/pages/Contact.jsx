@@ -14,7 +14,6 @@ function Contact() {
           alt=""
         />
         <p className="title_label team">ProtoJam 2024 !</p>
-        <p className="edition team">REACT EDITION</p>
         </div>
         <div className="contact">
         <form action="">

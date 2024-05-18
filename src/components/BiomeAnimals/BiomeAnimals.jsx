@@ -3,8 +3,10 @@ import "./BiomeAnimals.css";
 import Popup from "../Popup/Popup";
 import biome from "../../biome.json";
 import { useState } from "react";
+import { useMain } from "../../contexts/MainContext";
 
 function BiomeAnimals({ data }) {
+  const { playSound } = useMain();
 
   const [ indexSelect, setIndexSelect ] = useState(0)
   const [ finalIndex, setFinalIndex ] = useState("")
@@ -14,15 +16,20 @@ function BiomeAnimals({ data }) {
   console.log('biomeselect',biomeSelect[0].arrayAnimals)
 
   const handleShowPopup = (index) => {
+    playSound()
     setFinalIndex(`id${index}`)
     setIndexSelect(index)
-    console.log('ici', biomeSelect[0].arrayAnimals[indexSelect][finalIndex])
     setShowPopup(true)
   } 
 
+  const closePopup = () => {
+    playSound()
+    setShowPopup(false)
+  }
+
   return (
     <div className={`animals_container ${data.title}`}>
-      {showPopup && <Popup info={biomeSelect[0].arrayAnimals[indexSelect][finalIndex]} toggle={() => setShowPopup(false)} />}
+      {showPopup && <Popup info={biomeSelect[0].arrayAnimals[indexSelect][finalIndex]} toggle={() => closePopup()} />}
       <div className="animals">
         <h3>CREATURES:</h3>
         <div className="card_container">

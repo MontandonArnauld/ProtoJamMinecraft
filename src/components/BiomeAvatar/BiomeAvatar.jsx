@@ -3,7 +3,7 @@ import React from "react";
 import ReactSkinview3d from "react-skinview3d";
 import { WalkingAnimation } from "skinview3d";
 import { Link } from "react-router-dom";
-import { useMain } from "../../contexts/MainContext";
+import { useMain } from "../../contexts/MainContext"; 
 
 
 function BiomeAvatar({ data }) {

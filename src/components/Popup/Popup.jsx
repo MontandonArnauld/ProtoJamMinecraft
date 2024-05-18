@@ -1,6 +1,7 @@
 import "./Popup.css"
 
 function Popup({ info, toggle }) {
+
     return (
         <>
             <div className="popup_container">

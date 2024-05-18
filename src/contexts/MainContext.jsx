@@ -9,9 +9,10 @@ import {
   }) {
       
     let music = new Audio("../assets/sounds/Axolotl.ogg");
+    music.loop = true;
       
     const [ muteSound, setMuteSound ] = useState(true)
-    const [ volume, setVolume ] = useState(0.2)
+    const [ volume, setVolume ] = useState(1)
     music.volume = volume
      
     const playMusic = () => {
